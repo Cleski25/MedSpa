@@ -176,7 +176,7 @@ nav ul li a.active {
 /* Hero Section */
 
 .heroSection {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url(/Assets/Images/heroBackgroundImage.jpg) lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url(https://cleski25.github.io/MedSpa/Assets/Images/heroBackgroundImage.jpg) lightgray 50% / cover no-repeat;
     background-position: 50% 55%;
     height: 800px;
     display: flex;
