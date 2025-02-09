@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Created description meta tag for SEO purpose. To allow search result to have a discription displayed-->
+    <meta name="description" content="Discover rejuvenation and radiance at our medical spa where wellness meets beauty for a transformative experience unlike any other.">
+    
+    <title>MedSpa Wellness Center</title>
+
+    <!--linked font styles from Google Fonts (Playfair Display)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!--linked font styles from Google Fonts (Crimson Text)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!--linked to cloudfare icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="/CSS/mainStyles.css">
+</head>
+<body>
+    <header>
+        <!--Navigation Bar-->
+        <div class="navBar">
+            <div class="navContainer">
+                <div>
+                    <img src="/Assets/Images/MedSpaLogo.png" alt="MedSpa Logo">
+                </div>
+                    <nav>
+                        <ul class="navLinks">
+                            <li class="menuItem">
+                                <a href="#heroSection">Home</a>
+                            </li>
+                            <li class="menuItem">
+                                <a href="#serviceSection">Service</a>
+                            </li>
+                            <li class="menuItem">
+                                <a href="#aboutSection">About Us</a>
+                            </li>
+                            <li class="menuItem">
+                                <a href="#staffSection">Our Staff</a>
+                            </li>
+                            <li class="menuItem">
+                                <a href="#contactUsSection" id="navButton">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Hero Section-->
+        <section class="heroSection" id="heroSection">
+            <div class="heroContentWrapper">
+                <h1>Revitalize <br> Your Beauty</h1>
+                <p>Discover rejuvenation and radiance at our  medical spa <br> where wellness meets beauty for a  transformative<br> experience unlike any other.</p>
+
+                <!--Form for customer to subscribe to newsletters. Hidden label for accessibility only. -->
+                <form action="#" method="#" id="subscribeHero">
+                    <!-- <label for="customerEmail" class="labelHidden">Enter your email</label> -->
+                    <input type="email" id="customerEmail" name="customerEmail" placeholder="Enter your email" required>
+                    <button type="submit" class="heroButton" >Subscribe Today</button>
+                </form>
+                <div class="hidden" id="messageHero">
+                    <p>Your email has been submitted!</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Services Section-->
+        <section class="sectionContainer" id="serviceSection">
+            <div class="serviceContentWrapper">
+                <div class="serviceLeftContainer">
+                    <div class="serviceContent-H2-P">
+                        <h2>Our Services</h2>
+                        <p>Experience ultimate relaxation and rejuvenation with our luxurious spa services, designed to pamper, revitalize, and leave you feeling <br> utterly refreshed.</p>
+                    </div>
+                    <div class="serviceGridContainer">
+                        <div class="serviceGridItem">
+                            <img src="/Assets/Icons/creamIcon40x42.svg" alt="Icon showing body lotion in a jar.">
+                            <h4>Skin Rejuvenation</h4>
+                            <p>Restore youthfulness and glow with skin rejuvenation.</p>
+                            <div class="learnMoreGreen">
+                                <p>Learn More</p>
+                                <img src="/Assets/Icons/arrow_right_alt_24px.svg" alt="A green arrow icon.">
+                            </div>
+                        </div>
+                        <div class="serviceGridItem">
+                            <img src="/Assets/Icons/leafIcon50x38.svg" alt="Icon showing a leaf.">
+                            <h4>Medical-Grade Products</h4>
+                            <p>Elevate skincare with our premium medical-grade products.</p>
+                            <div class="learnMoreGreen">
+                                <p>Learn More</p>
+                                <img src="/Assets/Icons/arrow_right_alt_24px.svg" alt="A green arrow icon.">
+                            </div>
+                        </div>
+                        <div class="serviceGridItem">
+                            <img src="/Assets/Icons/dripIcon40x41.svg" alt="Icon showing droplets.">
+                            <h4>Chemical Peels</h4>
+                            <p>Rejuvenates, smooths, brightens, evens tone, restores radiance.</p>
+                            <div class="learnMoreGreen">
+                                <p>Learn More</p>
+                                <img src="/Assets/Icons/arrow_right_alt_24px.svg" alt="A green arrow icon.">
+                            </div>
+                        </div>
+                        <div class="serviceGridItem">
+                            <img src="/Assets/Icons/towelIcon50x35.svg" alt="Icon showing towels.">
+                            <h4>Sauna Treatment</h4>
+                            <p>Soothe sore muscles and alleviate aches and pains.</p>
+                            <div class="learnMoreGreen">
+                                <p>Learn More</p>
+                                <img src="/Assets/Icons/arrow_right_alt_24px.svg" alt="A green arrow icon.">
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <img src="/Assets/Images/lookthroughleaf.png" alt="Calming green leaf with a woman looking through the center of leaf.">
+            </div>
+        </section>
+
+        <!--Benefits Section-->
+        <section class="sectionContainer">
+            <h2 class="centerTitle-H2">Spa Therapy Benefits</h2>
+            <div class="benefitContentWrapper">
+                <div class="benefitItem">
+                    <img src="/Assets/Images/guyinwater_Union.png" alt="Guy relaxing in soapy water.">
+                    <h4>Enhanced Relaxation</h4>
+                    <p>Spa treatments can help you unwind and alleviate stress, promoting a sense of tranquility.</p>
+                </div>
+                <div class="benefitItem">
+                    <img src="/Assets/Images/oils_union.png" alt="Sample of oil and cream items.">
+                    <h4>Improved Skin Health</h4>
+                    <p>Post-spa treatments often leave skin feeling refreshed and glowing.</p>
+                </div>
+                <div class="benefitItem">
+                    <img src="/Assets/Images/candle_union.png" alt="A burning candle with flower in background.">
+                    <h4>Mental Relief</h4>
+                    <p>Spa treatments can uplift mood, boost mental clarity, and leave you feeling revitalized and energized.</p>
+                </div>
+                <div class="benefitItem">
+                    <img src="/Assets/Images/message_Union.png" alt="Lady giving a message.">
+                    <h4>Better Circulation</h4>
+                    <p>Massages and hydrotherapy can stimulate blood flow, aiding in circulation and promoting overall well-being.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Why Us Section-->
+        <section class="sectionContainer">
+            <div class="whyUsWrapper">
+                <h2 class="centerTitle-H2">Wondering Why Us ?</h2>
+                <div class="fullContentWrapper">
+                    <div class="topBoxesWrap">
+                        <img src="/Assets/Images/SaunaRoom.png" alt="Relaxing sauna room.">
+                        <div class="rightBoxWrap">
+                            <div class="whyRightTop">
+                                <h4>Professional Grade Equipment</h4>
+                                <p>Modern equipment allows for precise targeting of specific areas or concerns, tailored to individual needs.</p>
+                                <div class="learnMore-Icon">
+                                    <div class="learnMoreBlack">
+                                        <p>Learn More</p>
+                                        <img src="/Assets/Icons/arrow_right_alt_24px_black.svg" alt="A black arrow icon.">
+                                    </div>
+                                    <img src="/Assets/Icons/crossIcons.svg" alt="Four cross icons.">
+                                </div>
+                            </div>
+                            <div class="whyRightBottom">
+                                <div class="naturalContent">
+                                    <h4>100% Natural</h4>
+                                    <p>Nutrient-rich oils and products packed with vitamins, antioxidants, and fatty acids.</p>
+                                    <button>Book Appointment</button>
+                                </div>
+                                    <img src="/Assets/Images/messageRoom.png" alt="Message room with a white table.">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomBoxesWrap">
+                        <img src="/Assets/Images/messageRoomBlack.png" alt="Message room with a black table.">
+                        <img src="/Assets/Images/GuyInPool.png" alt="Guy relaxing in a pool with eyes closed.">
+                        <div class="comfortWrapper">
+                            <h4>Comfort and Safety</h4>
+                            <p>Advanced technology ensures a comfortable and safe spa experience, minimizing discomfort and risks.</p>
+                            <div id="faceIconWrap">
+                            <img src="/Assets/Icons/faceMaskIcon.svg" alt="Facemask Icon.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="greenGhostButton">Schedule an Appointment</button>
+            </div>
+        </section>
+
+        <!--About Us Section-->
+        <section class="sectionContainer" id="aboutSection">
+            <div class="aboutUsWrapper">
+                <img src="/Assets/Images/womanFacecloseup.png" alt="Woman face showing clean shining skin.">
+                <div class="aboutRightContent">
+                    <h2>About Us</h2>
+                    <p>
+                        At our medical spa, we blend cutting-edge technology with a commitment to holistic wellness. Founded on the belief that beauty is more than skin deep,
+                        we offer personalized treatments tailored to enhance both outer radiance and inner vitality, empowering clients to look and feel their absolute best.
+                    </p>
+                    <div class="aboutRightBottom">
+                        <div class="aboutInfoWrap">
+                            <div class="aboutInfoSpace">
+                                <p class="aboutNum">2,000+</p>
+                                <p class="aboutLabel">Happy Customers</p>
+                            </div>
+                            <div class="aboutInfoSpace">
+                                <p class="aboutNum">20+</p>
+                                <p class="aboutLabel">Years Experience</p>
+                            </div>
+                            <button class="greenGhostButton">Learn More</button>
+                        </div>
+                        <div class="aboutImgsWrap">
+                            <img src="/Assets/Images/womanLaying.png" alt="Woman laying down on a spa table getting a massage.">
+                            <img src="/Assets/Images/manLaying.png" alt="Man laying down on a spa table getting a massage.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Our Staff Section-->
+        <section class="sectionContainer" id="staffSection">
+                <div class="staffMainBG">
+                    <div class="staffTopContent">
+                        <h2>Our Staff</h2>
+                        <button class="greenGhostButton">Contact Us</button>
+                    </div>
+                </div>
+                <div class="staffContentWrap">
+                    <div class="staffImgContent">
+                        <img src="/Assets/Images/Staff1.png" alt="Profile photo of the founder.">
+                        <h4>Annette Black</h4>
+                        <p>FOUNDER</p>
+                        <P class="staffImgPara">
+                            "Health is a state of complete harmony of the body, mind and spirit. 
+                            When one is free from physical disabilities and mental distractions, the gates of the soul open." - B.K.S. Iyengar
+                        </P>
+                    </div>
+                    <div class="staffImgContent">
+                        <img src="/Assets/Images/Staff2.png" alt="Profile photo of the co-founder.">
+                        <h4>Courtney Henry</h4>
+                        <p>CO-FOUNDER</p>
+                        <P class="staffImgPara">
+                            "In today's rush, we all think too much, seek too much, want too much, and forget about the joy of just being." - Eckhart Tolle
+                        </P>
+                    </div>
+                    <div class="staffImgContent">
+                        <img src="/Assets/Images/Staff4.png" alt="Profile photo of the customer care agent.">
+                        <h4>Theresa Webb</h4>
+                        <p>CUSTOMER CARE</p>
+                        <P class="staffImgPara">
+                            "The art of healing comes from nature, not from the physician. Therefore, the physician must start from nature, with an open mind." - Paracelsus
+                        </P>
+                    </div>
+                    <div class="staffImgContent">
+                        <img src="/Assets/Images/Staff3.png" alt="Profile photo of the specialist.">
+                        <h4>Cameron Williamson</h4>
+                        <p>SPECIALIST</p>
+                        <P class="staffImgPara">
+                            "Relaxation means releasing all concern and tension and letting the natural order of life flow through one's being." - Donald Curtis
+                        </P>
+                    </div>
+                </div>
+        </section>
+
+        <!--Testimonal Section-->
+        <section class="sectionContainer">
+            
+                <div class="carousel">
+                    <h2>What People Say About Us</h2>
+                    <div class="cards">
+                        <div class="testCardWrap">
+                            <img src="/Assets/Icons/Stars.svg" alt="Icon of 5 stars">
+                            <p>
+                                This was a great experience. Glad to have my dreams brought to life but this amazing company. 
+                                I was be coming back to have other projects completed!
+                            </p>
+                            <div class="testAuthorContent">
+                                <img src="/Assets/Images/Avatar1.png" alt="Profile image of customer">
+                                <div class="testAuthor">
+                                    <p class="testAuthorName">Amy Goldberg</p>
+                                    <p class="testAuthorTitle">CEO at Cool Cola</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testCardWrap">
+                            <img src="/Assets/Icons/Stars.svg" alt="Icon of 5 stars">
+                            <p>
+                                A game-changer for my business. Thank you for your expertise! 
+                                The guidance and strategies provided by this team have transformed my business into a thriving success.
+                            </p>
+                            <div class="testAuthorContent">
+                                <img src="/Assets/Images/Avatar2.png" alt="Profile image of customer">
+                                <div class="testAuthor">
+                                    <p class="testAuthorName">Cody Fisher</p>
+                                    <p class="testAuthorTitle">Medical Assistant</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testCardWrap">
+                            <img src="/Assets/Icons/Stars.svg" alt="Icon of 5 stars">
+                            <p>
+                                Outstanding customer support! They went above and beyond to help me resolve my issue.
+                            </p>
+                            <div class="testAuthorContent">
+                                <img src="/Assets/Images/Avatar3.png" alt="Profile image of customer">
+                                <div class="testAuthor">
+                                    <p class="testAuthorName">Wade Warren</p>
+                                    <p class="testAuthorTitle">Marketing Coordinator</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testCardWrap">
+                            <img src="/Assets/Icons/Stars.svg" alt="Icon of 5 stars">
+                            <p>
+                                An absolute pleasure to work with. They made the process seamless. Working with this team was a seamless and enjoyable experience.
+                            </p>
+                            <div class="testAuthorContent">
+                                <img src="/Assets/Images/Avatar4.png" alt="Profile image of customer">
+                                <div class="testAuthor">
+                                    <p class="testAuthorName">Kathy Williams</p>
+                                    <p class="testAuthorTitle">Sales Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrowsWrap">
+                        <button class="arrow left" onclick="moveLeft()"><img src="/Assets/Icons/arrow_back_24px.svg" alt="Back arrow."></button>
+                        <button class="arrow right" onclick="moveRight()"><img src="/Assets/Icons/arrow_forward_24px.svg" alt="Forward arrow"></button>
+                    </div>
+                </div>    
+        </section>
+
+        <!--Banner Section-->
+        <section class="sectionContainer">
+            <div class="banImgBg">
+                <div class="banContent">
+                    <h2>Take Care Of Your Body Today!</h2>
+                    <button class="greenGhostButton">Book a Appointment</button>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact Section-->
+        <section class="sectionContainer" id="contactUsSection">
+            <h2 id="contactH2">Contact Us</h2>
+            <div class="contactMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1449.4460716467502!2d-81.37677474274767!3d28.50779196864844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77b5f2a86d707%3A0xfc5274a738eb156c!2sPublix%20Pharmacy%20at%20Plaza%20Ecco!5e1!3m2!1sen!2sus!4v1738763780630!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contactInfoWrap">
+                <div class="contactform">
+                    <h3>Contact Form</h3>
+                    <p>Fill this out so we can learn more about you and your needs.</p>
+                        <form action="#" method="#" id="myForm">
+                            <input type="text" id="customerName" name="customerName" placeholder="Name" required>
+                            <input type="email" id="customerEmail" name="customerEmail" placeholder="Email Address" required>
+                            <input type="tel" id="customerPhone" name="customerPhone" placeholder="726-456-7891" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            <input type="text" id="formSubject" name="formSubject" placeholder="Subject" required>
+                            <textarea name="contactMessage" id="contactMessage" placeholder="How can we help?" rows="4" cols="50" required></textarea>
+                            <button type="submit" class="greenGhostButton">Submit</button>
+                        </form>
+                        <div class="hidden" id="message">
+                            <p>Your form has been submitted!</p>
+                        </div>
+                </div>
+                <div class="contactSocial">
+                    <a href="https://www.facebook.com"><img src="/Assets/Icons/FB Icon.svg" alt="Facebook icon linking to social media page"></a>
+                    <a href="https://x.com"><img src="/Assets/Icons/X Icon.svg" alt="X icon linking to social media page"></a>
+                    <a href="https://www.instagram.com"><img src="/Assets/Icons/IG Icon.svg" alt="Instagram icon linking to social media page"></a>
+                    <a href="https://www.linkedin.com"><img src="/Assets/Icons/LIn Icon.svg" alt="LinkedIn icon linking to social media page"></a>
+                </div>
+                <div class="contactAddress">
+                    <h3>MedSpa</h3>
+                    <div class="addresswrapper">
+                        <h4>Address</h4>
+                        <p>
+                            1354 Pine Park Ave <br>
+                            Ste 202 <br>
+                            Orlando, Fl 38524 <br>
+                            United States
+                        </p>
+                    </div>
+                    <div class="emailWrapper">
+                        <h4>Email Us</h4>
+                        <a href="mailto:hello@medspa.com">hello@medspa.com</a>
+                    </div>
+                    <div class="callWrapper">
+                    <h4>Call Us</h4>
+                    <a href="tel:+8504569875">850-456-9875</a>
+                    <p>Monday - Friday: 9:00 AM - 4:00 PM </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer class="sectionFooter">
+            <div class="footContent">
+                <div class="footContentTop">
+                    <div class="footContentOne">
+                        <img src="/Assets/Icons/Black Logo.svg" alt="Medspa black logo">
+                        <p>The best place to treat your body.</p>
+                    </div>
+
+                    <div class="footContentTwo">
+                        <h4>Company</h4>
+                        <a href="#serviceSection"><p>Services</p></a>
+                        <a href="#aboutSection"><p>About Us</p></a>
+                        <a href="#staffSection"><p>Our Staff</p></a>
+                    </div>
+
+                    <div class="footContentThree">
+                        <h4>Contact Us</h4>
+                        <a href="mailto:hello@medspa.com" id="footerEmail">hello@medspa.com</a>
+                        <a href="tel:+8504569875">850-456-9875</a>
+                        <p>
+                            1354 Pine Park Ave <br>
+                            Ste 202 <br>
+                            Orlando, Fl 38524 <br>
+                            United States
+                        </p>
+                    </div>
+
+                    <div class="footContentFour">
+                        <h4>Stay Up To Date</h4>
+                        <p>Subscribe to our newsletter.</p>
+                        <form action="#" method="#" id="subscribeFooter">
+                            <div class="subscribeWrapper">
+                                <input type="email" name="subscriberEmail" id="subscriberEmail" placeholder="Email" required>
+                                <button type="submit"><img src="/Assets/Icons/arrow_darker_forward_24px.svg" alt="Submit arrow icon"></button>
+                            </div>
+                        </form>
+                        <div class="hidden" id="messageFooter">
+                            <p>Your email has been submitted!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footContentBottom">
+                    <p>© Copyright MedSpa Inc. <br>
+                        All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    <!--Linked to JS File-->
+    <script src="/JS/scripts.js"></script>
+</body>
+</html>
